@@ -21,6 +21,15 @@ class Todos:
         self._late_todo_ids = set()
         self._done_todo_ids = set()
 
+    def get_avail_id(self):
+        return self._avail_id
+
+    def get_total_todos(self):
+        return len(self._todo_dict)
+
+    def get_status_of_todo(self, wanted_id):
+        return self._todo_dict[wanted_id]._status
+
     def append(self, title: str, content: str, due_date: int, status: str = 'PENDING'):
         outcome = str()
         is_todo_valid = True
@@ -87,7 +96,7 @@ class Todos:
     def count_by_status(self, status: str = 'PENDING'):
         count = int()
         if status == 'ALL':
-            count = len(self._todo_dict)
+            count = self.get_total_todos()
         elif status == 'PENDING':
             count = len(self._pending_todo_ids)
         elif status == 'LATE':

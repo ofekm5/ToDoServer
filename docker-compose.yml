@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  django:
+    image: todoserver:4.0
+    build: .
+    ports:
+      - "3769:9285"

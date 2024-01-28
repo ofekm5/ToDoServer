@@ -1,0 +1,25 @@
+13-06-2023 17:51:15.404 INFO: Creating new TODO with Title [New Year] | request #1
+13-06-2023 17:51:40.803 INFO: Creating new TODO with Title [Reception hours for kaplat] | request #2
+13-06-2023 17:51:48.513 INFO: Total TODOs count for state ALL is 2 | request #3
+13-06-2023 17:52:00.401 INFO: Total TODOs count for state DONE is 0 | request #4
+13-06-2023 17:52:07.636 INFO: Update TODO id [2] state to DONE | request #5
+13-06-2023 17:54:20.942 INFO: Update TODO id [2] state to DONE | request #1
+13-06-2023 17:55:14.706 INFO: Update TODO id [2] state to DONE | request #1
+13-06-2023 17:56:19.296 INFO: Creating new TODO with Title [New Year] | request #1
+13-06-2023 17:56:21.594 INFO: Creating new TODO with Title [Reception hours for kaplat] | request #2
+13-06-2023 17:56:26.599 INFO: Update TODO id [2] state to DONE | request #3
+13-06-2023 17:57:43.368 INFO: Creating new TODO with Title [New Year] | request #1
+13-06-2023 17:57:45.049 INFO: Creating new TODO with Title [Reception hours for kaplat] | request #2
+13-06-2023 17:57:47.963 INFO: Update TODO id [2] state to DONE | request #3
+13-06-2023 17:58:00.210 INFO: Total TODOs count for state DONE is 1 | request #4
+13-06-2023 17:58:15.422 INFO: Creating new TODO with Title [Buy Groceries] | request #6
+13-06-2023 17:58:15.423 DEBUG: Currently there are 2 TODOs in the system. New TODO will be assigned with id 3 | request #6
+13-06-2023 17:58:22.620 INFO: Extracting todos content. Filter: PENDING | Sorting by: TITLE | request #7
+13-06-2023 17:58:22.620 DEBUG: There are a total of 3 todos in the system. The result holds 2 todos | request #7
+13-06-2023 17:58:43.212 INFO: Removing todo id 3 | request #8
+13-06-2023 17:58:43.212 DEBUG: After removing todo id [3] there are 2 TODOs in the system | request #8
+13-06-2023 17:58:52.049 INFO: Total TODOs count for state PENDING is 1 | request #9
+13-06-2023 17:58:58.730 INFO: Update TODO id [1] state to LATE | request #10
+13-06-2023 17:58:58.731 DEBUG: Todo id [1] state change: PENDING --> LATE | request #10
+13-06-2023 17:59:05.848 INFO: Extracting todos content. Filter: LATE | Sorting by: ID | request #11
+13-06-2023 17:59:05.848 DEBUG: There are a total of 2 todos in the system. The result holds 1 todos | request #11

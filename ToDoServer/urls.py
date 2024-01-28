@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from todo.views import manage_logs
 
 urlpatterns = [
-    path('todo/', include('todo.urls')),
+    path('todo', include('todo.urls')),
+    path('logs/level', manage_logs)
 ]

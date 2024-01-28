@@ -1,0 +1,12 @@
+altgraph==0.17.3
+asgiref==3.6.0 
+colorama==0.4.6
+Django==4.2
+loguru==0.7.0
+pefile==2023.2.7
+pyinstaller==5.11.0
+pyinstaller-hooks-contrib==2023.2
+pywin32-ctypes==0.2.0
+sqlparse==0.4.4
+tzdata==2023.3
+win32-setctime==1.1.0
